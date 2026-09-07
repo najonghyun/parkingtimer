@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  적응형 아이콘의 배경 레이어. web/icons/app_icon_final.svg의 bgGrad(대각선
+  그라디언트)를 그대로 옮긴 것 — 45° 방향이라 안드로이드 각도로는 315°.
+  둥근 모서리는 넣지 않는다: 런처가 자기 마스크(원/스퀘어클)로 잘라내므로
+  배경은 캔버스를 꽉 채워야 한다.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="315"
+        android:startColor="#1B1E24"
+        android:endColor="#262A33"
+        android:type="linear" />
+</shape>

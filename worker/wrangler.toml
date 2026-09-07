@@ -1,0 +1,11 @@
+name = "parking-timer-worker"
+main = "src/index.ts"
+compatibility_date = "2026-07-01"
+
+# Not sensitive — the actual credential goes in the GCP_SERVICE_ACCOUNT_JSON
+# secret (see README.md), never here.
+[vars]
+FIREBASE_PROJECT_ID = "parking-timer-app"
+
+[triggers]
+crons = ["* * * * *"]

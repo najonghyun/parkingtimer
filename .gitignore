@@ -1,0 +1,62 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Cloudflare Worker (worker/)
+node_modules/
+worker/.wrangler/
+
+# Claude Code 로컬 권한 설정 (머신마다 다름)
+.claude/settings.local.json
+
+# Secrets — never commit service account keys or Wrangler local state
+worker/secrets/
+worker/.dev.vars
+
+# 앱 서명 키 — 절대 커밋 금지. 이걸 잃어버리면 Play 스토어에 업데이트를
+# 영원히 올릴 수 없다 (구글도 복구해주지 못함).
+android/key.properties
+**/*.jks
+**/*.keystore

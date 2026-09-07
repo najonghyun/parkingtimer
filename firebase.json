@@ -1,0 +1,25 @@
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "parking-timer-app",
+          "appId": "1:1000234855916:android:796ec56be32543c4c6a4c9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "parking-timer-app",
+          "configurations": {
+            "android": "1:1000234855916:android:796ec56be32543c4c6a4c9"
+          }
+        }
+      }
+    }
+  }
+}

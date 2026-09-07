@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  API 26+ 적응형 아이콘. 런처가 배경/전경 두 레이어를 자기 마스크로 잘라
+  쓰기 때문에, 이 파일이 있으면 mipmap-*/ic_launcher.png(레거시)는 API 25
+  이하에서만 쓰인다.
+-->
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@drawable/ic_launcher_background" />
+    <foreground android:drawable="@mipmap/ic_launcher_foreground" />
+</adaptive-icon>

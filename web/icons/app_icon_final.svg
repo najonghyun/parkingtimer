@@ -1,0 +1,31 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1B1E24"/>
+      <stop offset="100%" stop-color="#262A33"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="512" height="512" rx="116" fill="url(#bgGrad)"/>
+
+  <!-- 카운트다운 링 (안전 → 주의 → 위험 3구간) -->
+  <g transform="translate(256,213) rotate(-90)">
+    <circle r="135" fill="none" stroke="#4CAF7D" stroke-width="28" stroke-linecap="round"
+            stroke-dasharray="466.5 381.7" stroke-dashoffset="0"/>
+    <circle r="135" fill="none" stroke="#E8A83C" stroke-width="28" stroke-linecap="round"
+            stroke-dasharray="169.6 678.6" stroke-dashoffset="-466.5"/>
+    <circle r="135" fill="none" stroke="#E85C4A" stroke-width="28" stroke-linecap="round"
+            stroke-dasharray="212.1 636.1" stroke-dashoffset="-636.1"/>
+  </g>
+
+  <!-- P: 링의 정중앙에 정확히 배치 (text-anchor + dominant-baseline로 중심 정렬) -->
+  <text x="256" y="213" text-anchor="middle" dominant-baseline="central"
+        font-family="Arial, Helvetica, sans-serif" font-weight="800" font-size="210" fill="#F2F0EB">P</text>
+
+  <!-- 하단 미니 카 실루엣 -->
+  <g transform="translate(149,367) scale(1.2)">
+    <path d="M20,70 L30,45 Q35,30 55,30 L95,30 Q115,30 120,45 L130,70 L150,70 Q158,70 158,80 L158,95 Q158,103 150,103 L20,103 Q12,103 12,95 L12,80 Q12,70 20,70 Z" fill="#F2F0EB"/>
+    <circle cx="45" cy="103" r="13" fill="#1B1E24"/>
+    <circle cx="125" cy="103" r="13" fill="#1B1E24"/>
+  </g>
+</svg>

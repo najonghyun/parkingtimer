@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1000234855916",
+    "project_id": "parking-timer-app",
+    "storage_bucket": "parking-timer-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1000234855916:android:796ec56be32543c4c6a4c9",
+        "android_client_info": {
+          "package_name": "com.parkingtimer.parking_timer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF5PGfr3OrBoFLLKn6NzcIbKZ7_kS_TwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
