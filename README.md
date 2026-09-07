@@ -4,7 +4,9 @@
 
 #### 기획부터 구현·배포까지 **Claude Code를 활용해 진행한 AI 활용 프로젝트**입니다.
 
-### https://parking-timer-worker.i0364842-757.workers.dev/privacy
+### [📥 APK 다운로드 (v1.0.0)](https://github.com/najonghyun/parkingtimer/releases/latest/download/chabbaeyo-v1.0.0.apk) &nbsp;·&nbsp; [개인정보처리방침](https://parking-timer-worker.i0364842-757.workers.dev/privacy)
+
+<a href="https://github.com/najonghyun/parkingtimer/releases/latest/download/chabbaeyo-v1.0.0.apk"><img src="https://img.shields.io/badge/Download-APK%20v1.0.0-3DDC84?style=for-the-badge&logo=android&logoColor=white"/></a> <a href="https://github.com/najonghyun/parkingtimer/releases"><img src="https://img.shields.io/github/downloads/najonghyun/parkingtimer/total?style=for-the-badge&label=Downloads&color=555555"/></a>
 
 ---
 
@@ -27,6 +29,24 @@
 |:---:|:---:|
 | <img src="store/assets/screenshot_1_timer.png" width="330"> | <img src="store/assets/screenshot_2_settings.png" width="330"> |
 | 원형 게이지가 남은 시간을 보여주고, 가운데 배지가<br>`안전 → 주의 → 위험 → 초과` 단계를 색으로 알립니다.<br>버튼 하나로 타이머를 시작하고, 오늘 주차 횟수와<br>최근 기록이 아래에 바로 쌓입니다. | 같은 화면을 아래로 내리면 제한 시간을<br>**1 / 2 / 3시간** 중에 탭 한 번으로 바꿀 수 있고,<br>지금 설정에서 알림이 언제 울리는지<br>문장으로 그대로 확인할 수 있습니다. |
+
+<br>
+
+---
+
+### 📥 다운로드 및 설치
+
+Play 스토어 심사 전이라 **APK 직접 설치** 방식으로 받아볼 수 있습니다.
+
+<a href="https://github.com/najonghyun/parkingtimer/releases/latest/download/chabbaeyo-v1.0.0.apk"><img src="https://img.shields.io/badge/⬇%20chabbaeyo--v1.0.0.apk-48.4MB-3DDC84?style=for-the-badge&logo=android&logoColor=white"/></a>
+
+1. **안드로이드 폰에서** 위 버튼을 눌러 APK를 내려받습니다.
+2. 파일을 열면 "출처를 알 수 없는 앱" 경고가 뜹니다 — Play 스토어를 거치지 않은 앱이라 정상입니다. **설정 → 이 출처 허용**으로 진행하세요.
+3. 설치 후 **알림 권한을 허용**해야 알림이 옵니다. 삼성 등 일부 기기는 **배터리 최적화 예외**까지 허용해야 알림이 지연되지 않습니다.
+
+> - 안드로이드 전용입니다. iOS는 별도 빌드가 필요합니다.
+> - 업로드 키(`CN=Chabbaeyo`)로 서명된 빌드라, 추후 Play 스토어 버전이 나오면 서명이 달라 덮어쓰기 설치가 안 될 수 있습니다.
+> - 전체 버전 목록은 [Releases](https://github.com/najonghyun/parkingtimer/releases)에서 볼 수 있습니다.
 
 <br>
 
